@@ -1,4 +1,4 @@
-Rails.application.routes.draw do
+DemoApp::Application.routes.draw do
   resources :microposts
 
   resources :users
